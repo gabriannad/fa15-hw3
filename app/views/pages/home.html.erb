@@ -1,0 +1,15 @@
+<div style="margin: 50px">
+	<h1>Users</h1>
+	<% User.all.each do |user| %>
+		<p>
+		  <b>Username</b>: <%= user.username %></br>
+		  <b>Email</b>: <%= user.email %></br>
+		  <b>Age</b>: <%= user.age %>
+		</p>
+	<% end %>
+
+	<h1>Cats</h1>
+	<% Cat.all.each do |cat| %>
+	  <b>Name</b>: <%= cat.name %></br>
+	<% end %>
+</div>
