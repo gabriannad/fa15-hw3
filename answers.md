@@ -8,7 +8,7 @@ save()
 id
 
 4. What single line of ruby code can insert a cat with the name "hat" in the database?
-Cat.create(:name => "hat")
+Cat.create name: "hat"
 
 5. What was the most confusing part over the last few weeks?
 How to start writing a Rails app from scratch; there's a lot of steps. It'd be nice to have a step-by-step "to-do" list. I noticed a lot of the things in Rails is like this where there are just so many steps that need to be taken and it's hard to remember them and what order to do them in.
